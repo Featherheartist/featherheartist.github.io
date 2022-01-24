@@ -1,7 +1,9 @@
 body {
   background-color: #FFFFFC;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  color: #2c2943;
 }
-
 
 .artof {
     color: black;
@@ -9,6 +11,13 @@ body {
     font-style: italic;
     font-weight: 200;
   }
+
+  .logo {
+    top: 10px;
+    width: 25%;
+    height: auto;
+    position: relative;
+    }
 
   /* Add a black background color to the top navigation */
   .topnav {
@@ -130,31 +139,11 @@ body {
   }
 
 /* Footer */
-
-.footer {
-  position:absolute;
-  height: 100px;
-  bottom:0;
-  left:0;
-  right:0;
-  margin-bottom:0;
-  background-color: #C4DDFE;
-}
-/* Copyright */
-.footer-text-left {
-  margin-top:30px;
-  font-size:15px;
-  font-family: 'Titillium Web', light;
-  padding-left:40px;
-  color: white;
-  float:left;
-}
-
-/* Socials */
+/* footer test */
 .socialMediaLinks a {
-    padding-right:20px;
-    margin-top:30px;
-    float:right;
+    margin-right:20px;
+    margin-top:15px;
+    float: right;
     font-size: 25px;
     color: white;
     text-decoration: none;
@@ -162,4 +151,53 @@ body {
 
 .socialMediaLinks a:hover {
     color: #e5f8ff;
+}
+
+.socialnav {
+    float: none;
+    text-align: right;
+    width: auto;
+    margin: 0 auto 15px;
+}
+
+.footer-basic {
+  position:absolute;
+  height: auto;
+  bottom:0;
+  left:0;
+  right:0;
+  padding: 5px;
+  background-color: #C4DDFE;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-family: 'Titillium Web', light;
+  font-size:25px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color: white;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+.footer-basic .copyright {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  margin-top:10px;
+  text-align:center;
+  font-size:13px;
+  color:white;
 }
